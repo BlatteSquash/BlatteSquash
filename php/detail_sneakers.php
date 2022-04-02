@@ -27,7 +27,7 @@
         <div>
             <h1 id="Nike">Nike</h1>
             <h2 id="Dunk">Dunk Low Team Red</h2>
-            <hr>
+            <hr id="Dunk">
             <h4 id="euro">270.00€</h4>
             <h4 id="taille">TAILLE</h4>
             <div id="taille">
@@ -39,6 +39,19 @@
             </div>
             <div id="Ajouter">
                 <h3>Ajouter au panier</h3>
+            </div>
+            <div id="Plus">
+                <p>Description</p>
+                <p>Authenticité</p>
+                <p>Livraison</p>
+            </div>
+            <hr id="Plus">
+            <div id="description">
+                <p>Directement inspirée de la version Dunk High Team Red, la nouvelle Dunk Low s'inspire de la tendance bordeaux pour le plus grand plaisir des fans de sneakers.
+                    <br>
+                    La Nike Dunk Low Team Red se pare d'une tige en cuir blanc, couplée à des empiècements en cuir bordeaux au niveau des œillets, du mudguard et du Swoosh. On note un branding Nike sur le talon et sur la languette. Une midsole blanche, accompagnée d'une outsole bordeaux vient parfaire l'ensemble.
+                    <br>
+                    Avec une palette de couleur harmonieuse, cette nouvelle Nike Dunk Low ne manquera pas de trouver son public !</p>
             </div>
         </div>
 

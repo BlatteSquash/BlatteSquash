@@ -70,7 +70,7 @@ main > section {
         font-weight: 400;
         font-style: normal;
         line-height: 100%;
-        margin-top: 50px;
+        margin-top: 40px;
         margin-left: 20px;
         margin-bottom: 20px;
     }
@@ -88,19 +88,35 @@ main > section {
         font-style: normal;
         line-height: 120%;
     }
-    p {
+    div#Plus > p {
         font-family: DXRigraf-Regular, sans-serif;
         font-size: 24px;
         font-weight: 400;
         font-style: normal;
         line-height: 120%;
+        color: #8F8F8F;
     }
+    div#description > p {
+        font-family: DXRigraf-Regular, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 120%;
+        color: #8F8F8F;
+    }
+
     /*Ligne orange*/
-    main > section > div > hr {
+    hr#Dunk {
         border: 2px solid #FFBF37;
         width: 60%;
         height: auto;
         margin: 20px;
+    }
+    hr#Plus {
+        border: 1px solid #8F8F8F;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 /* ========== Côté gauche (les images) ========== */
@@ -163,4 +179,17 @@ main > section {
         color: #101EF1;
         margin-left: auto;
         margin-right: auto;
+    }
+/* ========== Desciption ========== */
+    /*Catégorie*/
+    div#Plus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    /*Description*/
+    div#description {
+        margin: 20px;
     }
