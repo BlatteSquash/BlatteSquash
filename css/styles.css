@@ -1,9 +1,12 @@
 
 /* ========== Le fond ========== */
-main > section {
+section#un {
     margin: 85px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+section#deux {
+    margin: 85px;
 }
 /* ========== Le texte ========== */
     @font-face {
@@ -29,6 +32,15 @@ main > section {
         font-style: normal;
         line-height: 100%;
         color: #8F8F8F;
+        margin: 20px;
+    }
+    h1#Recommandations {
+        font-family: MonumentExtended-Regular, sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 100%;
+        color: #1F1F1F;
         margin: 20px;
     }
     h2#Dunk {
@@ -102,7 +114,7 @@ main > section {
         font-weight: 400;
         font-style: normal;
         line-height: 120%;
-        color: #8F8F8F;
+        color: #131313;
     }
 
     /*Ligne orange*/
@@ -114,7 +126,7 @@ main > section {
     }
     hr#Plus {
         border: 1px solid #8F8F8F;
-        width: 85%;
+        width: 82%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -192,4 +204,6 @@ main > section {
     /*Description*/
     div#description {
         margin: 20px;
+        padding-left: 8%;
+        padding-right: 8%;
     }

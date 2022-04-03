@@ -11,7 +11,7 @@
 <body>
 <main>
 <!--    Le fond de la page-->
-    <section>
+    <section id="un">
 
 <!--        Le côté gauche de la page (les images)-->
         <div id="photo_sneakers1">
@@ -41,20 +41,53 @@
                 <h3>Ajouter au panier</h3>
             </div>
             <div id="Plus">
+<!--                <form>-->
+<!--                    <input type="button"-->
+<!--                           value="Description">-->
+<!--                </form>-->
+<!--                <p>Directement inspirée de la version Dunk High Team Red, la nouvelle Dunk Low s'inspire de la tendance bordeaux pour le plus grand plaisir des fans de sneakers.-->
+<!--                <form>-->
+<!--                    <input type="button"-->
+<!--                           value="Authenticité">-->
+<!--                    <p>La Nike Dunk Low Team Red se pare d'une tige en cuir blanc, couplée à des empiècements en cuir bordeaux au niveau des œillets, du mudguard et du Swoosh. On note un branding Nike sur le talon et sur la languette. Une midsole blanche, accompagnée d'une outsole bordeaux vient parfaire l'ensemble.-->
+<!--                </form>-->
+<!--                <form>-->
+<!--                    <input type="button"-->
+<!--                           value="Livraison">-->
+<!--                    <p>Avec une palette de couleur harmonieuse, cette nouvelle Nike Dunk Low ne manquera pas de trouver son public !</p>-->
+<!--                </form>-->
                 <p>Description</p>
                 <p>Authenticité</p>
                 <p>Livraison</p>
             </div>
             <hr id="Plus">
             <div id="description">
-                <p>Directement inspirée de la version Dunk High Team Red, la nouvelle Dunk Low s'inspire de la tendance bordeaux pour le plus grand plaisir des fans de sneakers.
-                    <br>
-                    La Nike Dunk Low Team Red se pare d'une tige en cuir blanc, couplée à des empiècements en cuir bordeaux au niveau des œillets, du mudguard et du Swoosh. On note un branding Nike sur le talon et sur la languette. Une midsole blanche, accompagnée d'une outsole bordeaux vient parfaire l'ensemble.
-                    <br>
-                    Avec une palette de couleur harmonieuse, cette nouvelle Nike Dunk Low ne manquera pas de trouver son public !</p>
+                <p>Directement inspirée de la version Dunk High Team Red, la nouvelle Dunk Low s'inspire de la tendance bordeaux pour le plus grand plaisir des fans de sneakers.</p>
+                <br>
+                <p>La Nike Dunk Low Team Red se pare d'une tige en cuir blanc, couplée à des empiècements en cuir bordeaux au niveau des œillets, du mudguard et du Swoosh. On note un branding Nike sur le talon et sur la languette. Une midsole blanche, accompagnée d'une outsole bordeaux vient parfaire l'ensemble.</p>
+                <br>
+                <p>Avec une palette de couleur harmonieuse, cette nouvelle Nike Dunk Low ne manquera pas de trouver son public !</p>
             </div>
         </div>
-
+    </section>
+    <section id="deux">
+        <div>
+            <h1 id="Recommandations">Recommandations . 4</h1>
+            <div id="Recommandation">
+                <div id="image_1">
+                    <img id="image_1" src="">
+                </div>
+                <div id="image_2">
+                    <img id="image_2" src="">
+                </div>
+                <div id="image_3">
+                    <img id="image_3" src="">
+                </div>
+                <div id="image_4">
+                    <img id="image_4" src="">
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 </body>
